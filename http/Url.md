@@ -2,7 +2,7 @@
 
 The http\Url class provides versatile means to parse, construct and manipulate URLs.
 
-## Constants:
+## Constants:($flags) to include more than one use a bitwise disjunction as in http\URL::SANITIZE_PATH | http\URL::STRIP_PASS 
 
 * REPLACE  
   Replace parts of the old URL with parts of the new.
